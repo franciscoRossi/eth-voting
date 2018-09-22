@@ -1,0 +1,25 @@
+{
+  "name": "voting",
+  "version": "1.0.0",
+  "description": "Simple voting ethereum smart contract",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test ./test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscoRossi/eth-voting.git"
+  },
+  "author": "Francisco Rossi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franciscoRossi/eth-voting/issues"
+  },
+  "homepage": "https://github.com/franciscoRossi/eth-voting#readme",
+  "dependencies": {
+    "ganache-cli": "^6.1.8"
+  }
+}
